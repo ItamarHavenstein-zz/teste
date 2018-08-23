@@ -8,8 +8,15 @@ namespace teste
 {
     class Program
     {
+        /// <summary>
+        /// Teste 2 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
