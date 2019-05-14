@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico", "Servico\Servico.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico.Test", "Servico.Test\Servico.Test.csproj", "{8E5FB3E5-7993-41BA-A97E-057B7F9CDDBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{F769E651-9E9F-48D6-AA73-CDF14CE32AE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8E5FB3E5-7993-41BA-A97E-057B7F9CDDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5FB3E5-7993-41BA-A97E-057B7F9CDDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5FB3E5-7993-41BA-A97E-057B7F9CDDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F769E651-9E9F-48D6-AA73-CDF14CE32AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F769E651-9E9F-48D6-AA73-CDF14CE32AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F769E651-9E9F-48D6-AA73-CDF14CE32AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F769E651-9E9F-48D6-AA73-CDF14CE32AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

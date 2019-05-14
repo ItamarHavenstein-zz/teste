@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Dominio;
 using NUnit.Framework;
 
 namespace Servico
@@ -14,7 +16,9 @@ namespace Servico
         [Test]
         public void UmProduto()
         {
-            var result = _separar.SeparaProdutos();
+            List<Registro> produtos = new List<Registro>();
+
+            var result = _separar.SeparaProdutos(produtos);
 
             Assert.AreEqual(result.Count,1 );
         }
